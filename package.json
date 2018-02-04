@@ -1,7 +1,7 @@
 {
-  "name": "discord.js-heroku",
+  "name": "djsona",
   "version": "1.0.0",
-  "description": "An in-depth guide on deploying your Discord.js bot on Heroku",
+  "description": "",
   "main": "index.js",
   "engines": {
     "node": "8.x",
@@ -13,18 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/synicalsyntax/discord.js-heroku.git"
+    "url": "git+https://github.com/smartmimo/bot666.git"
   },
   "keywords": [
-    "heroku",
+    "djsona",
     "discord.js"
   ],
-  "author": "synicalsyntax",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/synicalsyntax/discord.js-heroku/issues"
-  },
-  "homepage": "https://github.com/synicalsyntax/discord.js-heroku#readme",
+  "author": "madmaden",
+  "homepage": "https://github.com/smartmimo/bot666.git",
   "dependencies": {
     "discord.js": "^11.3.0"
   }
