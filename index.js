@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-    client.user.setActivity('Life', {type: 'THINKING ABOUT'});
+    client.user.setActivity('@Lunatik fall apart..', {type: 'WATCHING'});
 });
 
 client.on('message', msg => {
