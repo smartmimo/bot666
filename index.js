@@ -1,5 +1,4 @@
- http.createServer(function (request, response) {
-	 const Discord = require('discord.js');
+const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -15,4 +14,3 @@ client.on('message', msg => {
 });
 
 client.login("MzM1NTQ0NDU5OTAxMDA5OTIw.DVglYw.FHck6GHqnMvVh63GvyrVeWihkok");
- }).listen(process.env.PORT || 5000);
