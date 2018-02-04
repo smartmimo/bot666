@@ -8,7 +8,7 @@
 *.swp
 *.vi
 *~
-
+config.json
 *.sass-cache
 
 # OS or Editor folders
