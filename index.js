@@ -3,7 +3,7 @@ var server = http.createServer();
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var config = require('./config.json');
+var config = require('config.json');
 
 client.on('ready', () => {
     client.user.setActivity('@Lunatik fall apart..', {type: 'WATCHING'});
