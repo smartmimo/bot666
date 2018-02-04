@@ -6,7 +6,6 @@
 *.rej
 *.swo
 *.swp
-config.json
 *.vi
 *~
 *.sass-cache
