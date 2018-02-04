@@ -1,9 +1,6 @@
-http = require 'http'
-handle = (req, res) -> res.end "hit"
+var http = require('http');
 
-server = http.createServer handle
-
-server.listen process.env.PORT || 5000
+var server = http.createServer(function (req, res) {
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
@@ -20,4 +17,6 @@ client.on('message', msg => {
     else if (command === 'invite') return msg.channel.send("https://discordapp.com/oauth2/authorize?client_id=335544459901009920&scope=bot");
 });
 
-client.login("MzM1NTQ0NDU5OTAxMDA5OTIw.DVglYw.FHck6GHqnMvVh63GvyrVeWihkok");
+client.login("MzM1NTQ0NDU5OTAxMDA5OTIw.DVglYw.FHck6GHqnMvVh63GvyrVeWihkok");})
+server.listen(process.env.PORT || 5000);
+
