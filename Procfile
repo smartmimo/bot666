@@ -1,2 +1,1 @@
-worker: npm install
-web: node index.js
+worker: node index.js
